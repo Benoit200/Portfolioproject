@@ -7,7 +7,6 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-
 :root {
     --bg-color: #ffffff;
     --text-color: #000;
@@ -17,12 +16,10 @@
     --h2-font: 3rem;
     --p-font: 1.1rem;
 }
-
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
 header {
     position: fixed;
     width: 100%;
@@ -40,24 +37,21 @@ header {
 .logo img {
     max-width: 100%;
     width: 130px;
-    height: quto;
+    height: auto;
+    border-radius: 100%;
 }
-
 .navlist {
     display: flex;
 }
-
 .navlist li {
     position: relative;
 }
-
 .navlist a {
     font-size: var(--p-font);
     color: var(--text-color);
     font-weight: 500;
     padding: 10px 27px;
 }
-
 .navlist a::after {
     content: '';
     position: absolute;
@@ -68,11 +62,9 @@ header {
     left: 0;
     transition: ease .40s;
 }
-
 .navlist a:hover::after {
     width: 100%;
 }
-
 #menu-icon {
     font-size: 35px;
     color: var(--text-color);
@@ -188,8 +180,10 @@ span {
 
 .home-img img {
     max-width: 100%;
-    width: 540px;
-    height: auto;
+    width: 340px;
+    height: 460px;
+    border-radius: 50%;
+    margin-top: 11.5rem;
 }
 
 header .sticky {
@@ -647,7 +641,7 @@ header .sticky {
 }
 
 @media (max-width: 540px) {
-    .contact .action form input[type="email"]{
+    .contact .action form input[type="email"] {
         width: 310px;
     }
 }
