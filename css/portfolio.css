@@ -242,8 +242,9 @@ header .sticky {
 
 .about-img img {
     max-width: 100%;
-    width: 540px;
-    height: auto;
+    width: 35rem;
+    height: 40rem;
+    border-radius: 30px;
 }
 
 .about-text h2 {
