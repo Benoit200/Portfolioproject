@@ -394,18 +394,27 @@ header .sticky {
 
 .s.s-one img {
     background: #baebcd;
+    width: 110px;
+    height: 110px;
+    
 }
 
 .s.s-two img {
     background: #baeb;
+    width: 110px;
+    height: 110px;
 }
 
 .s.s-three img {
     background: #d9d1fa;
+    width: 110px;
+    height: 110px;
 }
 
 .s.s-four img {
     background: #faedce;
+    width: 110px;
+    height: 110px;
 }
 
 .row h3 {

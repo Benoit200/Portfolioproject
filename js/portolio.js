@@ -17,11 +17,11 @@ window.onscroll = () =>{
     navlist.classList.remove('active');
 }
 
-const sr = scrollReveal({
+const scr = scrollReveal({
     distance: '45px',
     duration: 2700,
     reset: true
 })
 
-sr.reveal('.home-text', {delay:350, origin:'left'});
-sr.reveal('.home-img', {delay:350, origin:'right'});
+scr.reveal('.home-text', {delay:350, origin:'left'});
+scr.reveal('.home-img', {delay:350, origin:'right'});
