@@ -540,6 +540,16 @@ header .sticky {
     font-size: var(--p-font);
     letter-spacing: 1px;
 }
+.message{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#form_text{
+  justify-content: center;
+  padding: 14px;
+}
 
 @media (max-width: 1425px) {
     header {
@@ -551,6 +561,11 @@ header .sticky {
         padding: 10px 3%;
         transition: .3s;
     }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        
+    }
 
     section {
         padding: 70px 3%;
@@ -560,6 +575,7 @@ header .sticky {
     .contact {
         width: 95%;
         transition: .3s;
+
     }
 
     :root {
@@ -577,6 +593,11 @@ header .sticky {
 
     .home {
         min-height: 80vh;
+    }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        
     }
 
     .navlist {
@@ -609,6 +630,11 @@ header .sticky {
 
     .navlist.active {
         top: 100%;
+    }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        
     }
 }
 
@@ -650,10 +676,20 @@ header .sticky {
         padding: 65px 3%;
         transition: .3s;
     }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        
+    }
 }
 
 @media (max-width: 540px) {
     .contact .action form input[type="email"] {
         width: 310px;
+    }
+    .message{
+        display: flex;
+        justify-content: space-between;
+        
     }
 }
