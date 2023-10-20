@@ -36,9 +36,10 @@ header {
 
 .logo img {
     max-width: 100%;
-    width: 130px;
+    width: 100px;
     height: auto;
     border-radius: 100%;
+   
 }
 .navlist {
     display: flex;
@@ -112,6 +113,11 @@ section {
     grid-gap: 4rem;
 }
 
+.home-text{
+    margin-top: 11.2rem;
+    height: auto;
+}
+
 .home-text h1 {
     margin: 10px 0px 25px;
     font-size: var(--big-font);
@@ -183,9 +189,10 @@ span {
 .home-img img {
     max-width: 100%;
     width: 340px;
-    height: 460px;
-    border-radius: 12px 12px 0 0;
-    margin-top: 11.5rem;
+    height: 340px;
+    border-radius: 50%;
+    border: 7px solid rgba(128, 103, 240, 1);
+    margin-top: 10rem;
 }
 
 header .sticky {
