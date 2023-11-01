@@ -26,7 +26,9 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#service">Service</a></li>
             <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-moon"></i>
         </ul>
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
         <a href="https://drive.google.com/file/d/1V2ZqpiKfHqcQDNDPwAi6ALySSKAkw1VB/view?usp=share_link" class="top-btn">Downlod CV</a>
     </header>
     <!-------- Home ---------->
@@ -78,7 +80,7 @@
                     <img src="./img/progimglng.webp" alt="">
                 </div>
                 <h3>Awsome Idea</h3>
-                <p>Most common methods for doing my work professional is a genuine use of <b><span>javascript,</span> <span>MongoDM,</span> <span>Node JS,</span><span>React</span>
+                <p>Most common methods for doing my work professional is a genuine use of <b><span>Javascript</span>, <span>MongoDM</span>, <span>Node JS</span>,<span>React JS</span>,<span>Express</span>
                 </span></b> programming language, .</p>
             </div>
         </div>
@@ -167,7 +169,7 @@
                 </div>
                 <h3>Web Design</h3>
                 <h5>Starts From <span>$99</span></h5>
-                <p>Web design refers to rhe design of websites that are desplayed
+                <p>Web design refers to the design of websites that are desplayed
                     on the internet. It usually refers to the user experience aspects website developer.
                 </p>
             </div>
@@ -176,7 +178,7 @@
                     <img src="./img/developerlanguages.jpg" alt="">
                 </div>
                 <h3>Web Design</h3>
-                <h5>Starts From <span>$99</span></h5>
+                <h5>Starts From <span>$90</span></h5>
                 <p>I can design refering to the design of websites that are desired
                     by the client. It usually refers to the Clients needinig the website is intending to do. 
                 </p>
@@ -186,7 +188,7 @@
                     <img src="./img/target.jpg" alt="">
                 </div>
                 <h3>Web Design</h3>
-                <h5>Starts From <span>$99</span></h5>
+                <h5>Starts From <span>$89</span></h5>
                 <p>I am capable to design everything you wish to make you fun of my product this is my special and unique 
                     possetion naturally.
                 </p>
@@ -196,7 +198,7 @@
                     <img src="./img/lamp.jpg" alt="">
                 </div>
                 <h3>Web Design</h3>
-                <h5>Starts From <span>$99</span></h5>
+                <h5>Starts From <span>$80</span></h5>
                 <p>My core services are, I provide to the Clients primary 
                     hospitality and deliver every finalized project and ready to be an outcompet on the market place.   
                 </p>
@@ -229,19 +231,19 @@
     <!-------- work ---------->
     <section class="cta">
         <div class="heading">
-            <h2>Completed 120+ Projects <br>Successfully</h2>
+            <h2>Completed 5+ Projects <br>Successfully</h2>
         </div>
         <div class="cta-box">
             <div class="wrap one">
-                <h3>1200+</h3>
+                <h3>5+</h3>
                 <p>Finished Projects</p>
             </div>
             <div class="wrap two">
-                <h3>350+</h3>
+                <h3>3+</h3>
                 <p>Happy Customers</p>
             </div>
             <div git class="wrap three">
-                <h3>15k</h3>
+                <h3>2+</h3>
                 <p>Global Customers</p>
             </div>
         </div>
@@ -252,19 +254,22 @@
         <div class="container">
             <div class="center">
                 <h3>Let's talk about everything</h3>
-                <p>Don't like forms? Send me an email.</p>
-            </div>
-            
-            <div class="action">
+                <p>Don't like forms? Send me an email.</p> <div class="action">
                 <form action="https://formsubmit.co/benoitbizimana2001@gmail.com" method="post">
                     <input type="text" name="name" required placeholder="name">
+                    <br>
                     <input type="email" name="email" placeholder="Enter your email" required>
+                    <br>
                     <input type="text" name="subject" required placeholder="Subject">
-                    <textarea name="message" required placeholder="Dro your message here"></textarea>
+                    <br>
+                    <textarea name="message" class="textarea" column="100%" rows="10%" required placeholder="Dro your message here"></textarea>
+                    <br>
                     <input type="hidden" name="_captcha" value="false">
-                    <button type="submit">submit</button>
-                </form>
+                    <br><br>
             </div>
+            </div>
+            
+           
         </div>
     </section>
 
@@ -272,7 +277,12 @@
     <div class="ends">
         <p>Made with love by B.Benoit</p>
     </div>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal">
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-them");
+        }
+    </script>
     <!-- Link to js -->
     <script type="text/javascript" src="./js/portolio.js"></script>
 </body>

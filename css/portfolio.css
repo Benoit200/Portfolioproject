@@ -557,6 +557,9 @@ header .sticky {
   justify-content: center;
   padding: 14px;
 }
+.action{
+    display: flex;
+}
 
 @media (max-width: 1425px) {
     header {
@@ -688,15 +691,59 @@ header .sticky {
         justify-content: space-between;
         
     }
+    .center{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textarea{
+        float: left;
+        height: 20%;
+        width: 20%;
+        
+    }
+    input{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .action{
+        display: flex;
+        padding: 5rem;
+    }
 }
 
 @media (max-width: 540px) {
+
+    .navlist ul{
+        display: block;
+        height: 6rem;
+    }
+    .navlist ul li{
+         display: block;
+    }
     .contact .action form input[type="email"] {
         width: 310px;
     }
     .message{
         display: flex;
         justify-content: space-between;
+        
+    }
+    .center{
+        justify-content: center;
+        
+    }
+    input{
+        width: 50%;        
+    }
+    .action{
+        display: flex;
+        padding: 5rem;
+    }
+    body{
         
     }
 }
